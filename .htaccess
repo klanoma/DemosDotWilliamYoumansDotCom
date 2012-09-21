@@ -1,31 +1,5 @@
-Options +FollowSymLinks
+ErrorDocument 404 /404
+
+# deny access to the top-level git repository:
 RewriteEngine On
-RewriteBase /
-
-# Forbid access to directories
-RewriteRule "\.(git|svn|sass-cache)/?" / [F,L]
-
-# Forbid access to files
-<FilesMatch "((^(\.|~)(svn|ht.*|git|[Dd][Ss]|_|rvmrc))|\.(log|md|markdown)$|README|~$)">
-  Order deny,allow
-  deny from all
-</FilesMatch>
-
-# Force as attachments
-<FilesMatch "\.(pdf|docx?|csv|xlsx?)$">
-  ForceType application/octet-stream
-  Header set Content-Disposition attachment
-</FilesMatch>
-
-# Force final slash
-<IfModule mod_rewrite.c>
-  RewriteCond %{REQUEST_URI} /+[^\.]+$
-  RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
-</IfModule>
-
-# Handle fonts
-<FilesMatch "\.(ttf|otf|eot|woff)$">
-<IfModule mod_headers.c>
-Header set Access-Control-Allow-Origin "*"
-</IfModule>
-</FilesMatch>
+RewriteRule \.git - [F,L]
