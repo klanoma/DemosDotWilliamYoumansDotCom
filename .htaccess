@@ -1,6 +1,3 @@
-Header set X-UA-Compatible "IE=edge"
-AddType text/x-component               htc
-
 Options +FollowSymLinks
 RewriteEngine On
 RewriteBase /
