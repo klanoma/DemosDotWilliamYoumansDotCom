@@ -6,3 +6,4 @@ javascripts_dir = "scripts"
 output_style = :compact
 line_comments = false
 preferred_syntax = :scss
+relative_assets = true
