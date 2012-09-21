@@ -14,7 +14,7 @@ $base-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', H
 $header-family: 'BanksiaRegular', Helvetica, Arial, sans-serif;
 
 @import "compass/css3/font-face";
-$font_path: "../fonts/" !default;
+$font_path: "../../fonts/" !default;
 
 @include font-face(
   'FontAwesome',
@@ -62,7 +62,7 @@ body {
   weight: 300;
 }
 
-h1, h2, h3, h4, .hero-unit h1 {
+#main-title, h1, h2, h3, h4, .hero-unit h1 {
   font-family: $header-family;
   font-weight: normal;
   font-style: normal;
@@ -116,4 +116,12 @@ a {
     vertical-align: middle;
     margin-left: 30px;
   }
+}
+
+#main-title {
+  font-size: 45px;
+  line-height: 70px;
+  color: $white;
+  padding: 0 0 0 50px;
+  background: transparent image-url('tea.png') no-repeat 0 10px;
 }
