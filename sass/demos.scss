@@ -2,8 +2,6 @@
 
 @import "compass/reset";
 
-@import "partials/font_awesome";
-
 $dark-blue: #223344;
 $grey: rgba(150, 170, 190, 1);
 $light-blue: #AAC8E0;
@@ -12,6 +10,8 @@ $white: #FFFFFF;
 $transparent: rgba(0,0,0,0);
 $black: #000000;
 $footer-black: #292727;
+$base-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$header-family: 'BanksiaRegular', Helvetica, Arial, sans-serif;
 
 @import "compass/css3/font-face";
 $font_path: "../fonts/" !default;
@@ -48,8 +48,7 @@ $font_path: "../fonts/" !default;
   )
 );
 
-$base-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$header-family: 'BanksiaRegular', Helvetica, Arial, sans-serif;
+@import "partials/font_awesome";
 
 body {
   background: $light-blue image-url('shade.jpg') repeat-x 0 0;

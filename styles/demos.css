@@ -15,6 +15,12 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
+@font-face { font-family: "FontAwesome"; src: url('/styles/fonts/../fonts/fontawesome-webfont.eot'); src: url('/styles/fonts/../fonts/fontawesome-webfont.eot?#iefix') format('eot'), url('/styles/fonts/../fonts/fontawesome-webfont.woff') format('woff'), url('/styles/fonts/../fonts/fontawesome-webfont.ttf') format('truetype'), url('/styles/fonts/../fonts/fontawesome-webfont.otf') format('opentype'), url('/styles/fonts/../fonts/fontawesome-webfont.svgz#FontAwesomeRegular') format('svg'), url('/styles/fonts/../fonts/fontawesome-webfont.svg#FontAwesomeRegular') format('svg'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "BanksiaBold"; src: url('/styles/fonts/../fonts/banksb20eot.eot') format('opentype'), url('/styles/fonts/../fonts/banksb20woff.woff') format('woff'), url('/styles/fonts/../fonts/banksb20ttf.ttf') format('truetype'), url('/styles/fonts/../fonts/banksb20svg.svg#BanksiaBold') format('svg'); }
+
+@font-face { font-family: "BanksiaRegular"; src: url('/styles/fonts/../fonts/banksiaeot.eot') format('opentype'), url('/styles/fonts/../fonts/banksiawoff.woff') format('woff'), url('/styles/fonts/../fonts/banksiattf.ttf') format('truetype'), url('/styles/fonts/../fonts/banksiasvg.svg#BanksiaRegular') format('svg'); }
+
 /*  Font Awesome the iconic font designed for use with Twitter Bootstrap ------------------------------------------------------- The full suite of pictographic icons, examples, and documentation can be found at: http://fortawesome.github.com/Font-Awesome/
  License ------------------------------------------------------- The Font Awesome webfont, CSS, and LESS files are licensed under CC BY 3.0: http://creativecommons.org/licenses/by/3.0/ A mention of 'Font Awesome - http://fortawesome.github.com/Font-Awesome' in human-readable source code is considered acceptable attribution (most common on the web). If human readable source code is not available to the end user, a mention in an 'About' or 'Credits' screen is considered acceptable (most common in desktop or mobile software).
  Contact ------------------------------------------------------- Email: dave@davegandy.com Twitter: http://twitter.com/fortaweso_me Work: Lead Product Designer @ http://kyruus.com
@@ -546,13 +552,7 @@ ul.icons li .icon-large:before, ul.icons li .icon-large:before { /* 1.5 increase
 
 .icon-handicap-sign:before { content: "\f52f"; }
 
-@font-face { font-family: "FontAwesome"; src: url('/styles/fonts/../fonts/fontawesome-webfont.eot'); src: url('/styles/fonts/../fonts/fontawesome-webfont.eot?#iefix') format('eot'), url('/styles/fonts/../fonts/fontawesome-webfont.woff') format('woff'), url('/styles/fonts/../fonts/fontawesome-webfont.ttf') format('truetype'), url('/styles/fonts/../fonts/fontawesome-webfont.otf') format('opentype'), url('/styles/fonts/../fonts/fontawesome-webfont.svgz#FontAwesomeRegular') format('svg'), url('/styles/fonts/../fonts/fontawesome-webfont.svg#FontAwesomeRegular') format('svg'); font-weight: normal; font-style: normal; }
-
-@font-face { font-family: "BanksiaBold"; src: url('/styles/fonts/../fonts/banksb20eot.eot') format('opentype'), url('/styles/fonts/../fonts/banksb20woff.woff') format('woff'), url('/styles/fonts/../fonts/banksb20ttf.ttf') format('truetype'), url('/styles/fonts/../fonts/banksb20svg.svg#BanksiaBold') format('svg'); }
-
-@font-face { font-family: "BanksiaRegular"; src: url('/styles/fonts/../fonts/banksiaeot.eot') format('opentype'), url('/styles/fonts/../fonts/banksiawoff.woff') format('woff'), url('/styles/fonts/../fonts/banksiattf.ttf') format('truetype'), url('/styles/fonts/../fonts/banksiasvg.svg#BanksiaRegular') format('svg'); }
-
-body { background: #aac8e0 url('/images/shade.jpg?1348206559') repeat-x 0 0; color: #223344; padding: 0; margin: 0; font-weight: 300; font-size: 16px; line-height: 18px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; weight: 300; }
+body { background: #aac8e0 url('/images/shade.jpg?1348207674') repeat-x 0 0; color: #223344; padding: 0; margin: 0; font-weight: 300; font-size: 16px; line-height: 18px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; weight: 300; }
 
 h1, h2, h3, h4, .hero-unit h1 { font-family: "BanksiaRegular", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; }
 

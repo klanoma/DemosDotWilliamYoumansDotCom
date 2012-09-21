@@ -20,13 +20,15 @@ RewriteRule "\.(git|svn|sass-cache)/?" / [F,L]
   Header set Content-Disposition attachment
 </FilesMatch>
 
-# force final slash
+# Force final slash
 <IfModule mod_rewrite.c>
   RewriteCond %{REQUEST_URI} /+[^\.]+$
   RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
 </IfModule>
 
-# If a directory or file exists, use it directly
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . index.html
+# Handle fonts
+<FilesMatch "\.(ttf|otf|eot|woff)$">
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
+</FilesMatch>
