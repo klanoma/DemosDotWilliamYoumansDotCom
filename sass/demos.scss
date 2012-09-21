@@ -105,16 +105,18 @@ a {
 #footer {
   height: 50px;
   background-color: $footer-black;
-  text-align: right;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   line-height: 50px;
   i {
-    font-size: 50px;
+    font-size: 40px;
     vertical-align: middle;
-    margin-left: 30px;
+    margin: 0 15px 0 0;
+  }
+  .right i {
+    margin: 0 0 0 15px;
   }
 }
 
@@ -124,4 +126,14 @@ a {
   color: $white;
   padding: 0 0 0 50px;
   background: transparent image-url('tea.png') no-repeat 0 10px;
+}
+
+.left {
+  float: left;
+  display: block;
+}
+
+.right {
+  float: right;
+  display: block;
 }

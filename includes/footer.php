@@ -3,7 +3,8 @@
 
     <div id="footer">
       <div class="content">
-        <a href="/blog">back to the blog <i class="icon-circle-arrow-right"></i></a>
+        <a href="/contact" class="right">need support? <i class="icon-envelope"></i></a>
+        <a href="/blog"><i class="icon-undo"></i> back to the blog</a>
       </div>
     </div>
 

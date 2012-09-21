@@ -573,7 +573,12 @@ a:hover i { text-decoration: none; }
 
 .content { margin: 0 auto; width: 960px; }
 
-#footer { height: 50px; background-color: #292727; text-align: right; position: fixed; bottom: 0; left: 0; width: 100%; line-height: 50px; }
-#footer i { font-size: 50px; vertical-align: middle; margin-left: 30px; }
+#footer { height: 50px; background-color: #292727; position: fixed; bottom: 0; left: 0; width: 100%; line-height: 50px; }
+#footer i { font-size: 40px; vertical-align: middle; margin: 0 15px 0 0; }
+#footer .right i { margin: 0 0 0 15px; }
 
 #main-title { font-size: 45px; line-height: 70px; color: white; padding: 0 0 0 50px; background: transparent url('/images/tea.png?1348204490') no-repeat 0 10px; }
+
+.left { float: left; display: block; }
+
+.right { float: right; display: block; }
