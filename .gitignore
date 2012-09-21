@@ -1,0 +1,21 @@
+#mac ignores
+:2e*
+._*
+*~
+.AppleDouble*
+.DS_*
+-.save
+.com.apple.timemachine*
+
+#yii ignores
+
+*.swp
+
+#SVN ignores
+*.svn
+
+#Compass
+.rvmrc
+.sass-cache/*
+
+canada-interactive-map.html
