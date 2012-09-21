@@ -11,9 +11,10 @@ $orange: #CC6600;
 $white: #FFFFFF;
 $transparent: rgba(0,0,0,0);
 $black: #000000;
+$footer-black: #292727;
 
 @import "compass/css3/font-face";
-$font_path: "../font/" !default;
+$font_path: "../fonts/" !default;
 
 @include font-face(
   'FontAwesome',
@@ -47,21 +48,73 @@ $font_path: "../font/" !default;
   )
 );
 
-
 $base-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $header-family: 'BanksiaRegular', Helvetica, Arial, sans-serif;
-
-html {
-  background-color: $dark-blue;
-}
 
 body {
   background: $light-blue image-url('shade.jpg') repeat-x 0 0;
   color: $dark-blue;
-  border: 1px solid $dark-blue;
   padding: 0;
   margin: 0;
   font-weight: 300;
   font-size: 16px;
   line-height: 18px;
+  font-family: $base-family;
+  weight: 300;
+}
+
+h1, h2, h3, h4, .hero-unit h1 {
+  font-family: $header-family;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 32px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 32px;
+}
+
+a {
+  @include link-colors($orange, $orange, $orange, $orange);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    i {
+      text-decoration: none;
+    }
+  }
+}
+
+#header {
+  height: 100px;
+}
+
+#content-wrapper {
+  min-height: 500px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#footer {
+  height: 50px;
+  background-color: $footer-black;
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 50px;
+  i {
+    font-size: 50px;
+    vertical-align: middle;
+    margin-left: 30px;
+  }
 }
