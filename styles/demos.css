@@ -577,8 +577,10 @@ a:hover i { text-decoration: none; }
 #footer i { font-size: 40px; vertical-align: middle; margin: 0 15px 0 0; }
 #footer .right i { margin: 0 0 0 15px; }
 
-#main-title { font-size: 45px; line-height: 70px; color: white; padding: 0 0 0 50px; background: transparent url('/images/tea.png?1348204490') no-repeat 0 10px; }
+#main-title { font-size: 45px; line-height: 70px; color: white; padding: 0 0 0 50px; background: transparent url('/images/tea.png?1348204490') no-repeat 0 10px; margin-left: -50px; }
 
 .left { float: left; display: block; }
 
 .right { float: right; display: block; }
+
+.menu { margin-top: 70px; font-size: 120%; list-style-type: disc; list-style-position: inside; }

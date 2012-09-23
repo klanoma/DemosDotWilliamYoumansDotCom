@@ -126,6 +126,7 @@ a {
   color: $white;
   padding: 0 0 0 50px;
   background: transparent image-url('tea.png') no-repeat 0 10px;
+  margin-left: -50px;
 }
 
 .left {
@@ -136,4 +137,11 @@ a {
 .right {
   float: right;
   display: block;
+}
+
+.menu {
+  margin-top: 70px;
+  font-size: 120%;
+  list-style-type: disc;
+  list-style-position: inside;
 }
