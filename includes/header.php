@@ -10,6 +10,20 @@
     <meta name="description" content="<?php echo isset($title) ? $title : ''; ?> programming demo">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="styles/demos.css">
+
+    <!-- For retina-display iPads -->
+    <link href="/apple-touch-icon-xlarge.png" rel="apple-touch-icon-precomposed" sizes="144x144" type="image/png"/>
+    <!-- For retina-display iPhones -->
+    <link href="/apple-touch-icon-large.png" rel="apple-touch-icon-precomposed" sizes="114x114" type="image/png"/>
+    <!-- For iPad 1 -->
+    <link href="/apple-touch-icon-medium.png" rel="apple-touch-icon-precomposed" sizes="72x72" type="image/png"/>
+    <!-- For iPhone 3G, iPod Touch and Android -->
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon-precomposed" type="image/png"/>
+    <!-- For Nokia -->
+    <link href="/apple-touch-icon.png" rel="shortcut icon"/>
+    <!-- For everything else -->
+    <link href="/favicon.png" rel="shortcut icon" type="image/png"/>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
   </head>
   <body>
     <!--[if lt IE 7]>
