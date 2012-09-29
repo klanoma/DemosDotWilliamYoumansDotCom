@@ -163,10 +163,9 @@
 
 <div id="paper"></div>
 <div class="footnotes">
-  <p>This demo was built on the shoulers of these open source projects:</p>
+  <p>This demo was built on the shoulders of these open source projects:</p>
   <ul>
     <li><a href="http://en.wikipedia.org/wiki/File:Canada_blank_map.svg" target="_blank">Original Map of Canada SVG</a></li>
-    <li><a href="http://raphaeljs.com/" target="_blank">Raphael JS</a></li>
     <li><a href="http://raphaeljs.com/" target="_blank">Raphael JS</a></li>
   </ul>
   <p><a href="http://www.williamyoumans.com/blog">Read the full tutorial!</a></p>
