@@ -95,6 +95,7 @@ a {
 
 #content-wrapper {
   min-height: 500px;
+  padding-bottom: 80px;
 }
 
 .content {
@@ -144,4 +145,12 @@ a {
   font-size: 120%;
   list-style-type: disc;
   list-style-position: inside;
+}
+
+.footnotes {
+  ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    margin: 5px 0 15px 15px;
+  }
 }

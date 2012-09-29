@@ -569,7 +569,7 @@ a:hover i { text-decoration: none; }
 
 #header { height: 100px; }
 
-#content-wrapper { min-height: 500px; }
+#content-wrapper { min-height: 500px; padding-bottom: 80px; }
 
 .content { margin: 0 auto; width: 960px; }
 
@@ -584,3 +584,5 @@ a:hover i { text-decoration: none; }
 .right { float: right; display: block; }
 
 .menu { margin-top: 70px; font-size: 120%; list-style-type: disc; list-style-position: inside; }
+
+.footnotes ul { list-style-type: disc; list-style-position: inside; margin: 5px 0 15px 15px; }
