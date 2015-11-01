@@ -9,7 +9,7 @@
     margin-top: 25px;
   }
 </style>
-<script src="/scripts/libs/jquery-1.8.2.min" type="text/javascript" charset="utf-8"></script>
+<script src="/scripts/libs/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="/scripts/libs/raphael-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="/scripts/libs/scale.raphael.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" charset="utf-8">
@@ -168,7 +168,7 @@
     <li><a href="http://en.wikipedia.org/wiki/File:Canada_blank_map.svg" target="_blank">Original Map of Canada SVG</a></li>
     <li><a href="http://raphaeljs.com/" target="_blank">Raphael JS</a></li>
   </ul>
-  <p><a href="http://www.williamyoumans.com/blog/detail/part-1-interactive-javascript-map-of-canada-with-raphael">Read the full tutorial!</a></p>
+  <p><a href="https://www.williamyoumans.com/blog/detail/part-1-interactive-javascript-map-of-canada-with-raphael">Read the full tutorial!</a></p>
 </div>
 
 <?php include('includes/footer.php'); ?>
